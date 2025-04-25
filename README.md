@@ -20,10 +20,7 @@ O projeto foi criado para demonstrar como integrar APIs externas e criar uma int
 
 - 🎨 **Interface Intuitiva e Responsiva**  
   Layout clean, com botões destacados e animações de transição suaves.
-
-- 🌐 **Suporte a Várias Moedas**  
-  Selecione entre dezenas de moedas do mundo com apenas dois cliques.
-
+  
 ---
 
 ## 🛠 Tecnologias Utilizadas
