@@ -1,25 +1,56 @@
-# Conversor de Moeda
+<!-- Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/API-ExchangeRate-4AB3F4?style=for-the-badge&logo=apollographql&logoColor=white" alt="ExchangeRate API" />
+</p>
 
-Este é um **conversor de moedas** simples, desenvolvido utilizando **JavaScript** e a API de **taxas de câmbio** em tempo real. O projeto foi criado para demonstrar como integrar APIs externas e como criar uma interface de usuário interativa.
+---
 
-## Funcionalidades
-- **Conversão de moedas em tempo real**: O aplicativo se conecta à [ExchangeRate-API](https://www.exchangerate-api.com/) para buscar taxas de câmbio atualizadas.
-- **Interface de usuário intuitiva**: A interface foi projetada para ser simples e fácil de usar, com um visual moderno.
+# 💱 Conversor de Moeda
 
-## Tecnologias Utilizadas
-- **HTML5**: Estrutura básica da página.
-- **CSS3**: Estilos e layout responsivo.
-- **JavaScript**: Lógica de conversão e manipulação da API.
-- **[ExchangeRate-API](https://www.exchangerate-api.com/)**: API gratuita para taxas de câmbio em tempo real.
+Este é um **conversor de moedas** simples, desenvolvido utilizando **JavaScript** e a API de **taxas de câmbio** em tempo real.  
+O projeto foi criado para demonstrar como integrar APIs externas e criar uma interface interativa e moderna.  
 
-## Como Funciona
-1. **Insira o valor da moeda**: O campo "valor" aceita apenas números positivos.
-2. **Selecione a moeda de origem e a moeda de destino**: Escolha as moedas que você deseja converter entre elas.
-3. **Clique em "Converter"**: O valor será convertido com base nas taxas de câmbio mais recentes.
+---
 
-## Como Rodar o Projeto Localmente
-Para rodar o projeto em sua máquina local, siga os passos abaixo:
+## ✨ Funcionalidades
 
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/Medeiros1712/conversor-de-moeda.git
+- ⚡ **Conversão em Tempo Real**  
+  Conecta-se à [ExchangeRate-API](https://www.exchangerate-api.com/) para buscar taxas sempre atualizadas.
+
+- 🎨 **Interface Intuitiva e Responsiva**  
+  Layout clean, com botões destacados e animações de transição suaves.
+  
+---
+
+## 🛠 Tecnologias Utilizadas
+
+| Tecnologia     | Detalhes                                                         |
+| -------------- | ---------------------------------------------------------------- |
+| <img width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /> **HTML5**   | Estrutura da página                                  |
+| <img width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"   /> **CSS3**    | Layout responsivo e estilos                          |
+| <img width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /> **JavaScript** | Lógica de conversão e chamadas à API                |
+| 🌐 **ExchangeRate-API** | API gratuita para taxas de câmbio em tempo real (HTTPS)       |
+
+---
+
+## 🚀 Como Funciona
+
+1. 1️⃣ **Insira o Valor**  
+   - Apenas números positivos são aceitos.
+
+2. 2️⃣ **Escolha as Moedas**  
+   - Selecione a moeda de origem (ex: USD) e a moeda de destino (ex: EUR).
+
+3. 3️⃣ **Clique em "Converter"**  
+   - O valor convertido aparece instantaneamente abaixo do formulário.
+
+---
+
+## 🎨 Melhorias Visuais Aplicadas
+
+- **Gradiente de Fundo**  
+  ```css
+  body {
+    background: linear-gradient(135deg, #6DD5FA, #FFFFFF);
+  }
