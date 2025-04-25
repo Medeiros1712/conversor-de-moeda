@@ -47,10 +47,3 @@ O projeto foi criado para demonstrar como integrar APIs externas e criar uma int
 
 ---
 
-## 🎨 Melhorias Visuais Aplicadas
-
-- **Gradiente de Fundo**  
-  ```css
-  body {
-    background: linear-gradient(135deg, #6DD5FA, #FFFFFF);
-  }
