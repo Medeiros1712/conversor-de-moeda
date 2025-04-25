@@ -17,7 +17,12 @@ async function converterMoeda() {
     const taxa = data.rates[to];
     const convertido = (amount * taxa).toFixed(2);
 
-    resultado.textContent = `${amount} ${from} = ${convertido} ${to}`;
+    const convertidoFormatado = Number(convertido).toLocaleString('pt-BR', { 
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2 
+    });
+
+    resultado.textContent = `${Number(amount).toLocaleString('pt-BR')} ${from} = ${convertidoFormatado} ${to}`;
   } catch (error) {
     resultado.textContent = 'Erro ao converter. Tente novamente mais tarde.';
     console.error(error);
