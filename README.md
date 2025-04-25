@@ -2,7 +2,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
   <img src="https://img.shields.io/badge/API-ExchangeRate-4AB3F4?style=for-the-badge&logo=apollographql&logoColor=white" alt="ExchangeRate API" />
-  <img src="https://img.shields.io/badge/Responsivo-Sí-green?style=for-the-badge" alt="Responsivo" />
 </p>
 
 ---
